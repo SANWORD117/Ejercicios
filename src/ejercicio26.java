@@ -8,7 +8,7 @@ public class ejercicio26 {
         Scanner area_c = new Scanner(System.in);
 
         System.out.println("Bienvenido hallaremos el area de tu cuadrado");
-        System.out.print("Ingresa el lado del lado: ");
+        System.out.print("Ingresa el lado del cuadrado: ");
         num= area_c.nextDouble();
 
         resultado = num * num;
