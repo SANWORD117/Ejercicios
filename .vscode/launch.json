@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ejercicio34",
+            "request": "launch",
+            "mainClass": "ejercicio34",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio27",
+            "request": "launch",
+            "mainClass": "ejercicio27",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio26",
+            "request": "launch",
+            "mainClass": "ejercicio26",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio25",
+            "request": "launch",
+            "mainClass": "ejercicio25",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio24",
+            "request": "launch",
+            "mainClass": "ejercicio24",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio14",
+            "request": "launch",
+            "mainClass": "ejercicio14",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio13",
+            "request": "launch",
+            "mainClass": "ejercicio13",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio1",
+            "request": "launch",
+            "mainClass": "ejercicio1",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio11",
+            "request": "launch",
+            "mainClass": "ejercicio11",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio12",
+            "request": "launch",
+            "mainClass": "ejercicio12",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio2",
+            "request": "launch",
+            "mainClass": "ejercicio2",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio3",
+            "request": "launch",
+            "mainClass": "ejercicio3",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio4",
+            "request": "launch",
+            "mainClass": "ejercicio4",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio5",
+            "request": "launch",
+            "mainClass": "ejercicio5",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio6",
+            "request": "launch",
+            "mainClass": "ejercicio6",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio7",
+            "request": "launch",
+            "mainClass": "ejercicio7",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio8",
+            "request": "launch",
+            "mainClass": "ejercicio8",
+            "projectName": "Ejercicios_b91d6747"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio9",
+            "request": "launch",
+            "mainClass": "ejercicio9",
+            "projectName": "Ejercicios_b91d6747"
+        }
+    ]
+}
