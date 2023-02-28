@@ -22,6 +22,7 @@ public class ejercicio34 {
             System.out.println("Mala suerte, no acertaste el número");
 
         }
+        System.out.println("Salio " + probabilidades);
         dado.close();
     }
 }

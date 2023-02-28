@@ -16,7 +16,7 @@ public class ejercicio23 {
 
         respuesta = trivia_g.nextInt();
 
-        if (respuesta==1) {
+        if (respuesta==3) {
 
             System.out.println("Respuesta correcta, siguiente pregunta");
         
