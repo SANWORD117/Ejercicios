@@ -2,33 +2,47 @@ import java.util.Scanner;
 
 public class ejercicio39 {
     public static void main(String[] args) {
-
-        String nom_nadadores,ape_nadadores,pais,modalidad = "  ";
-        int puntos,total_puntos,puesto;
-        int nadadores = 10;
+        
+        int nadadores = 2;
 
         Scanner competencia_n = new Scanner(System.in);
 
+        String nom_nadadores[] = new String [nadadores];
+        String premio[] = new String [nadadores];
+        String ape_nadadores[] = new String [nadadores];
+        String pais[] = new String [nadadores];
+        int puesto[] = new int [nadadores];
+        int puntos[] = new int [nadadores];
+        double tiempo[] = new double [nadadores];
+
         System.out.println("BIENVENIDOS A LA COMPETENCIA DE NATACIÖN ESTILO LIBRE");
-        System.out.print("Ingrese la modalidad de natación: ");
-        modalidad = competencia_n.nextLine();
-        System.out.println("Modalidad: " + modalidad);
+
         System.out.println("Participan: " + nadadores + " nadadores");
-        for (int i = 1; i <=10; i++) {
+        for (int i = 0; i <nadadores; i++) {
 
             System.out.println("CLasificación de los 10 nadadores hombres");
             System.out.println("Ingrese el puesto del 1 al 10 de clasificación: ");
-            puesto = competencia_n.nextInt(11);
+            puesto[i] = competencia_n.nextInt(11);
             System.out.println("Ingrese el primer nombre del participante: ");
-            nom_nadadores = competencia_n.next();
+            nom_nadadores[i] = competencia_n.next();
             System.out.println("Ingrese el primer apellido del participante: ");
-            ape_nadadores = competencia_n.next();
+            ape_nadadores[i] = competencia_n.next();
             System.out.println("Ingrese el pais del participante: ");
-            pais = competencia_n.next();
+            pais[i] = competencia_n.next();
+            System.out.println("Ingrese el tiempo que recorrio el participante: ");
+            tiempo[i] = competencia_n.nextDouble();
             System.out.println("Ingrese la cantidad de puntos que obtuvo el participante: ");
-            puntos = competencia_n.nextInt();
-            System.out.println("Top "+ puesto + " : " + nom_nadadores + " " + ape_nadadores + " del pais " + pais + " y obtuvo " + puntos + " puntos en esta Modalidad.");
+            puntos[i] = competencia_n.nextInt();
+            System.out.println("Ingrese el Premio ganado: ");
+            premio[i] = competencia_n.next();
+
             
+        } for (int i = 0; i <nadadores; i++) {
+            
+            System.out.println("Top "+ puesto[i] + " : " + nom_nadadores[i] + " " + ape_nadadores[i] + " del pais " + pais[i] + " realizo un recorrido de: " + tiempo[i] + " segundos");
+            System.out.println("Puntos obtuvidos de la Modalidad: " + puntos[i]);
+            System.out.println("Premio: " + premio[i]);
+
         }
         competencia_n.close();
     }
