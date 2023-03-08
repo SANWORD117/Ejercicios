@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ejercicio39 {
     public static void main(String[] args) {
         
-        int nadadores = 2;
+        int nadadores = 10;
 
         Scanner competencia_n = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ public class ejercicio39 {
         System.out.println("BIENVENIDOS A LA COMPETENCIA DE NATACIÖN ESTILO LIBRE");
 
         System.out.println("Participan: " + nadadores + " nadadores");
-        for (int i = 0; i <nadadores; i++) {
+        for (int i = 1; i <nadadores; i++) {
 
             System.out.println("CLasificación de los 10 nadadores hombres");
             System.out.println("Ingrese el puesto del 1 al 10 de clasificación: ");
